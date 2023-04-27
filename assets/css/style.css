@@ -1,0 +1,94 @@
+/* Estilos por etiqueta */
+
+body {
+    font-family: "Raleway", "Open Sans";
+    color:white;
+    background-color: black;
+}
+
+
+/* Estilos por clase*/
+
+.card-body1 {  
+    background-color: #16a2b7;  
+    padding:0;
+}
+
+.card-body2 {  
+    background-color: #000000;
+    color:white;
+    padding:0;
+    margin:0;
+    text-align:left;
+}
+
+.card-body3 { 
+    background-color: #16a2b7;  
+    color:white;
+    text-align:left;
+    height:17em;
+    padding: 0.5em;
+}
+
+.card-body4 {  
+    background-color:white;;  
+    margin-top: 1.5em;
+}
+
+.card-foto {
+    height:140px;
+    width: 253px;
+}
+
+.card-texto {
+    height: 180px;
+    width: 249px;
+}
+
+.linea {
+    color: #16a2b7 !important;
+    height: 5px !important;
+    opacity: 50% !important;
+}
+
+.bg-destacados {
+    background-color: #000000;
+}
+
+.boton {
+    background-color: #16a2b7;
+    color: #ffffff;
+    
+}
+
+.fa-iconos{
+    font-size: 2em;
+    color: #fff;
+}
+
+.iconos {
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center
+}
+
+.bg-footer {
+    background-color: #00ADB8;
+} 
+
+.p-simple {
+    color: #ffffff;
+}
+
+
+/* Smooth a sroll*/
+.bg-interno{
+    background-color: #7a8182f8;
+    transition: all 2s ease;
+}
+
+.navbar1 {
+    background-color: transparent !important;
+    color:white;
+}
+

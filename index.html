@@ -220,11 +220,50 @@
 
 
     <!--Título Formulario de Contacto-->
-    
+        <div class="container-fluid" id="contacto">
+            <h1 class="text-white text-center my-5">Contacto</h1>
+            <hr class="linea">
+        </div>
+        <!--Sección Formulario de Contacto-->
+        <section class="mx-auto ">
+            <div class="container-fluid text-dark w-75 pt-4">
+                <!--Formulario-->
+                <form>
+                    <div class="form-group container-sm py-2">
+                        <input type="name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Nombre"> 
+                    </div>
+                    <div class="form-group container-sm py-2">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo electrónico">
+                    </div>
+                    <div class="form-floating container-sm py-2">
+                        <textarea class="form-control" placeholder="Mensaje" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2" class="ms-2">Mensaje</label>
+                    </div>
+                    <div class="d-grid col-4 d-md-flex pb-5">
+                        <button type="submit" class="btn boton my-3 ms-3 my-lg-4 mb-lg-5 ms-lg-3" id="enviarCorreo" data-toggle="tooltip" data-placement="right" title="Enviar información"> Enviar </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    <!--Fin Formulario de Contacto-->
 
 
     <!-- Acá va Footer -->
-    
+    <footer class="container-fluid bg-footer py-4">
+        <div class="row">
+            <div class="col-lg-6 text-center col-12">
+                <h3 class="text-white py-lg-2 ms-lg-3 ">VIAJES CHILE</h3>
+            </div>
+            <!-- Iconos footer-->
+            <div class="col-lg-6 col-12 text-center">
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github-square fa-2x text-white px-lg-2 py-lg-2" data-toggle="tooltip" data-placement="right" title="Ir a Github"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"> <i class="fab fa-linkedin fa-2x text-white px-lg-2 py-lg-2" data-toggle="tooltip" data-placement="right" title="Ir a Linkedin"></i></a>
+                <a href="https://twitter.com/" target="_blank"> <i class="fab fa-twitter-square fa-2x text-white px-lg-2 py-lg-2" data-toggle="tooltip" data-placement="right" title="Ir a Twitter"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"> <i class="fab fa-facebook-square fa-2x text-white px-lg-2 py-lg-2" data-toggle="tooltip" data-placement="right" title="Ir a Facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!--Fin Footer-->
 
 
 
